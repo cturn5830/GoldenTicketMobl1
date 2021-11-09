@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import Router from 'next/router'
+import Link from `next/link`
+
 export default function Form(){
     return(
         <div>
@@ -7,7 +9,7 @@ export default function Form(){
                 <input type="text" id="fname" name="fname" placeholder = "First Name"/> <br/>
                 <input type="text" id="lname" name="lname" placeholder = "Last Name"/>  <br/>
                 <input type="text" id="email" name="email" placeholder = "E-Mail"/>  <br/>
-                <input type="submit" id ="submit"value="Submit" onClick={()=>{
+            <Link href="/thank"><input type="submit" id ="submit"value="Submit" onClick={()=>{
                             const scriptURL = 'https://script.google.com/macros/s/AKfycbwLpHPedIqGTXRlj-oL8XCIz_iPZICsbyhYGrOT6WeyNvQ4QZG1cTioaJBcoy5iggQ8/exec'
                            const form = document.forms['submit-to-google-sheet']
 
@@ -15,8 +17,8 @@ export default function Form(){
                               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
                                 .then(response => console.log('Success!', response))
                                 .catch(error => console.error('Error!', error.message))
-},()=>router.push("/thank")}
-></input>
+}}
+></input></Link>
             </form>
             <p>
             Winners will be notified Nov. 3 via text and email, with only one

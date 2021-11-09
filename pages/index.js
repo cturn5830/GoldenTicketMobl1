@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import Router from 'next/router'
+import Link from `next/link`
+
 
 import styles from '../styles/Home.module.css'
 import Titleimg from "../components/Titleimg.js"

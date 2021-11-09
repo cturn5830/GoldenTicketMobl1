@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Bike from "../public/Motorcycle.png";
+import Bike from "../public/Motorcycle.jpg";
 
 export default function Heroimg(){
     return(

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Bike from "../public/motorcycle.jpg"
 
-export default function Bike(){
+export default function Biketext(){
     return(
         <div className="Heroimg"style={{  
             

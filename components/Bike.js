@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Motor from "../public/motorcycle.jpg"
+import Motor from "../public/motorcycle.jpg";
 
 export default function Bikeb(){
     return(

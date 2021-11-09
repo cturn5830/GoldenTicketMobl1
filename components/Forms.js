@@ -18,7 +18,7 @@ function postform(){
                 <input type="text" id="fname" name="fname" placeholder = "First Name"/> <br/>
                 <input type="text" id="lname" name="lname" placeholder = "Last Name"/>  <br/>
                 <input type="text" id="email" name="email" placeholder = "E-Mail"/>  <br/>
-                <input type="submit" id ="submit"value="Submit" onClick={postform()}></input>
+                <input type="submit" id ="submit"value="Submit" onClick={postform}></input>
             </form>
             <p>
             Winners will be notified Nov. 3 via text and email, with only one

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Bike from "../public/Motorcycle.png";
-import background from "../public/background.jpg"
 
 export default function Heroimg(){
     return(

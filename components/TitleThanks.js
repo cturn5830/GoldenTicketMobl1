@@ -1,8 +1,4 @@
 
-import Image from "next/image";
-import Title from "../public/Lockup.png";
-import background from "../public/background.jpg"
-
 export default function Titlethanks(){
     return(<div className="thanktit">
  <h2>{`You're In!`}</h2>

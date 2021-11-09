@@ -1,15 +1,13 @@
 import React, { useEffect } from "react";
 import Router from 'next/router'
-
 export default function Form(){
-function reroute(){router.push("/thank")}
     return(
         <div>
             <form name="submit-to-google-sheet">
                 <input type="text" id="fname" name="fname" placeholder = "First Name"/> <br/>
                 <input type="text" id="lname" name="lname" placeholder = "Last Name"/>  <br/>
                 <input type="text" id="email" name="email" placeholder = "E-Mail"/>  <br/>
-                <input type="submit" id ="submit"value="Submit" onClick={()=>{
+                <input type="submit" id ="submitbtn"value="Submit" onClick={()=>{
                             const scriptURL = 'https://script.google.com/macros/s/AKfycbwLpHPedIqGTXRlj-oL8XCIz_iPZICsbyhYGrOT6WeyNvQ4QZG1cTioaJBcoy5iggQ8/exec'
                            const form = document.forms['submit-to-google-sheet']
 
@@ -17,7 +15,6 @@ function reroute(){router.push("/thank")}
                               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
                                 .then(response => console.log('Success!', response))
                                 .catch(error => console.error('Error!', error.message))
-    return(reroute())
 }}></input>
             </form>
             <p>

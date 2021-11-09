@@ -1,12 +1,11 @@
 import Image from "next/image";
-import Motor from "../public/motorcycle.jpg";
+import bike from "../public/motorcycle.png";
 
-export default function Bikeb(){
+export default function Herobike(){
     return(
         <div>
-              
-            <Image src={Motor} alt="Counts Kustoms Motorcycle"/>
             
+            <Image src={bike} alt="Golden Bottle"/>
         </div>
     )
 }

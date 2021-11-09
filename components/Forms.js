@@ -1,9 +1,9 @@
 import router, { useRouter } from "next/router";
 
 export default function Form(){
-function postform()
+
     return(
-        <div className="forms">
+        <div>
             <form name="submit-to-google-sheet">
                 <input type="text" id="fname" name="fname" placeholder = "First Name"/> <br/>
                 <input type="text" id="lname" name="lname" placeholder = "Last Name"/>  <br/>

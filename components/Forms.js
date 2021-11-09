@@ -1,7 +1,7 @@
 import router, { useRouter } from "next/router";
 
 export default function Form(){
-
+function reroute(){router.push("/thank")}
     return(
         <div>
             <form name="submit-to-google-sheet">
@@ -16,7 +16,7 @@ export default function Form(){
                               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
                                 .then(response => console.log('Success!', response))
                                 .catch(error => console.error('Error!', error.message))
-                            
+                                reroute()
 }}></input>
             </form>
             <p>

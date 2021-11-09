@@ -1,4 +1,5 @@
-import router, { useRouter } from "next/router";
+import React, { useEffect } from "react";
+import Router from 'next/router'
 
 export default function Form(){
 function reroute(){router.push("/thank")}

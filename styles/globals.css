@@ -60,3 +60,7 @@ form #submit{
 .ContentDiv{
   padding-top:55px;
 }
+.formdisclaim{
+  overflow: hidden; 
+  padding: 0px 0px 0px 5px;
+}

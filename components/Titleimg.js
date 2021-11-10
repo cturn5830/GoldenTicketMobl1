@@ -7,7 +7,7 @@ export default function Titleimg(){
     return(
         <div className="Titleimg">
             <div className="background">
-            <Image src={background} alt="Counts Kustoms Motorcycle"/>
+            <Image src={background} alt="Counts Kustoms Motorcycle" className="background"/>
                 </div>
             <Image src={Title} alt="Lock up title"/>
             

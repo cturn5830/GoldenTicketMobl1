@@ -16,11 +16,7 @@ form input{
   width:76%;
   padding:3px;
 }
-form #OPTin{
-  margin:0;
-  padding:0;
-  float: left;
-}
+
 form #submit{
   width:90px;
   background-color:#E3201A;
@@ -60,8 +56,12 @@ form #submit{
 .ContentDiv{
   padding-top:55px;
 }
+form #OPTin{
+  margin:0;
+  padding:0;
+  float: left;
+}
 .formdisclaim{
   overflow: hidden; 
   padding: 0px 0px 0px 5px;
-  width:10px;
 }

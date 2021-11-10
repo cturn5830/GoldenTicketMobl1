@@ -65,5 +65,12 @@ form #OPTin{
   display: inline;
 }
 .formdisclaim{
+  margin: auto;
   width: 75%;
+}
+.formdisclaim a{
+  color:#ffbdbd;
+}
+.formdisclaim a:visited{
+  color:#b4b4b4;
 }

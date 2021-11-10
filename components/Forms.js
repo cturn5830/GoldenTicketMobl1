@@ -12,7 +12,7 @@ export default function Form(){
                 <input type="text" id="Phone#" name="Phone#" placeholder = "Phone Number"/> <p></p>
                 <input type="text" id="email" name="email" placeholder = "E-Mail"/>  <p></p>
                 <input type="text" id="ZipCode" name="ZipCode" placeholder = "Zip Code"/><p> </p>
-                <input type="checkbox" id="OPTin" name="OPTin"/> {disclaimer}
+                <input type="checkbox" id="OPTin" name="OPTin"/> {{disclaimer}}
               <br/>
             <Link href="/thank"><input type="submit" id ="submit"value="Submit" onClick={()=>{
                             const scriptURL = 'https://script.google.com/macros/s/AKfycbwLpHPedIqGTXRlj-oL8XCIz_iPZICsbyhYGrOT6WeyNvQ4QZG1cTioaJBcoy5iggQ8/exec'

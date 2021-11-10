@@ -47,4 +47,8 @@ form #submit{
 }
 .background{
   max-width: 1350px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
 }

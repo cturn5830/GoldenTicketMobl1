@@ -27,7 +27,7 @@ form #submit{
   border:none;
   font-weight: 800;
   color:#1f1f1f;
-  
+  float: left;
 }
 .Titleimg{
   margin-bottom:15px;

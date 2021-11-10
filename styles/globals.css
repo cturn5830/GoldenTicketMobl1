@@ -11,9 +11,8 @@ form{
   padding-top:25px
 }
 form input{
-  padding:5px;
-  border-radius: 3px;
-  margin-bottom: 5px;
+  border:none;
+  border-radius: 7px;
   width:75%;
 }
 form #submit{

@@ -22,7 +22,7 @@ export default function Form(){
               >
                 ExxonMobil privacy policy.
               </a>
-                
+                <p></p>
             <Link href="/thank"><input type="submit" id ="submit"value="Submit" onClick={()=>{
                             const scriptURL = 'https://script.google.com/macros/s/AKfycbwLpHPedIqGTXRlj-oL8XCIz_iPZICsbyhYGrOT6WeyNvQ4QZG1cTioaJBcoy5iggQ8/exec'
                            const form = document.forms['submit-to-google-sheet']

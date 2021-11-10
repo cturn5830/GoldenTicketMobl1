@@ -16,6 +16,10 @@ form input{
   width:75%;
   padding:3px;
 }
+form #OPTin{
+  margin:0;
+  padding:0;
+}
 form #submit{
   width:90px;
   background-color:#E3201A;

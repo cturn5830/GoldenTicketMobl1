@@ -8,7 +8,8 @@ body {
   background-color: black;
 }
 form{
-  padding-top:25px
+  padding-top:25px;
+  text-align: center;
 }
 form input{
   border:none;

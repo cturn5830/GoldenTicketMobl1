@@ -59,10 +59,8 @@ form #submit{
 form #OPTin{
   margin:0;
   padding:0;
-  float: left;
   width:10px
 }
 .formdisclaim{
   overflow: hidden; 
-  padding: 0px 0px 0px 5px;
 }

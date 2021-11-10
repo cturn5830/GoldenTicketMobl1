@@ -10,7 +10,7 @@ import Herobike from '../components/Bike'
 
 export default function Home() {
   return (
-    <div className="contains">
+    <div className={styles.container}>
         <Titleimg />
         <Herobike/>
         <Content/>

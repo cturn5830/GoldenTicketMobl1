@@ -3,7 +3,7 @@ import bike from "../public/motorcycle.png";
 
 export default function Herobike(){
     return(
-        <div>
+        <div className="subwidth">
             
             <Image src={bike} alt="Golden Bottle"/>
         </div>

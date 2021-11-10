@@ -13,7 +13,7 @@ form{
 form input{
   border:none;
   border-radius: 5px;
-  width:76%;
+  width:75%;
   padding:3px;
 }
 
@@ -59,9 +59,10 @@ form #submit{
 form #OPTin{
   margin:0;
   padding:0;
+  padding-right:5px; 
   width:10px;
   display: inline;
 }
 .formdisclaim{
-  overflow: hidden; 
+  width: 75%;
 }

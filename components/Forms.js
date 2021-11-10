@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
 import Link from "next/link"
+import background from "../public/background.jpg"
 
 export default function Form(){
     const words ="I want to subscribe to get future offers and news from ExxonMobil, and I agree for my submitted information to be used in accordance with the"
@@ -14,6 +14,9 @@ export default function Form(){
                 <input type="text" id="ZipCode" name="ZipCode" placeholder = "Zip Code"/><p> </p>
                  <div className="formdisclaim"><input type="checkbox" id="OPTin" name="OPTin"/> {words} <a href="https://corporate.exxonmobil.com/Global-legal-pages/privacy-policy" rel="noreferrer">ExxonMobil privacy policy.</a>
              </div> <br/>
+            
+
+        <div className="background2">
             <Link href="/thank"><input type="submit" id ="submit"value="Submit" onClick={()=>{
                             const scriptURL = 'https://script.google.com/macros/s/AKfycbwLpHPedIqGTXRlj-oL8XCIz_iPZICsbyhYGrOT6WeyNvQ4QZG1cTioaJBcoy5iggQ8/exec'
                            const form = document.forms['submit-to-google-sheet']
@@ -24,6 +27,8 @@ export default function Form(){
                                 .catch(error => console.error('Error!', error.message))
 }}
 ></input></Link>
+            <Image src={background} alt="Counts Kustoms Motorcycle" className="background"/>
+                </div>    
             </form>
             <p>
             Winners will be notified Nov. 3 via text and email, with only one

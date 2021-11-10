@@ -14,7 +14,7 @@ export default function Form(){
                 <input type="checkbox" id="OPTin" name="OPTin"/><div>
                 I want to subscribe to get future offers and news from ExxonMobil,
               and I agree for my submitted information to be used in accordance
-              with the `{{disclaimer}}`
+              with the {disclaimer}
               
               </div>
                 <p></p>

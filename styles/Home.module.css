@@ -1,5 +1,6 @@
-.container {
+.contains {
   background-color: black;
   color:#CECECE;
+  max-width: 1350px;
 }
 

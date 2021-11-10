@@ -5,7 +5,7 @@ import Thankshero from '../components/Thankshero'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="contains">
         <Titleimg/>
         <Thankshero />
         <Thankscontent/>

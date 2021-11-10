@@ -27,6 +27,7 @@ form #submit{
 }
 .Titleimg{
   margin-bottom:15px;
+  max-width: 1350px;
 }
 .background {
     position:absolute;

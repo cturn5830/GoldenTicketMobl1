@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Link from "next/link"
 
 export default function Form(){
+    const disclaimer = <a href="https://corporate.exxonmobil.com/Global-legal-pages/privacy-policy" rel="noreferrer">ExxonMobil privacy policy. </a>
     return(
         <div>
             <form name="submit-to-google-sheet">
@@ -13,15 +14,8 @@ export default function Form(){
                 <input type="checkbox" id="OPTin" name="OPTin"/><div>
                 I want to subscribe to get future offers and news from ExxonMobil,
               and I agree for my submitted information to be used in accordance
-              with the{" "}
-              <a
-                className="underline text-reflex-600"
-                href="https://corporate.exxonmobil.com/Global-legal-pages/privacy-policy"
-                target="_blank"
-                rel="noreferrer"
-              >
-                ExxonMobil privacy policy.
-              </a>
+              with the `{{disclaimer}}`
+              
               </div>
                 <p></p>
             <Link href="/thank"><input type="submit" id ="submit"value="Submit" onClick={()=>{

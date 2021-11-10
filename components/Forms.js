@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Form(){
     const words ="I want to subscribe to get future offers and news from ExxonMobil, and I agree for my submitted information to be used in accordance with the"
-    const disclaimlink = <a href="https://corporate.exxonmobil.com/Global-legal-pages/privacy-policy" rel="noreferrer">ExxonMobil privacy policy.</a>
+    const disclaimlink = `<a href="https://corporate.exxonmobil.com/Global-legal-pages/privacy-policy" rel="noreferrer">ExxonMobil privacy policy.</a>`
     const disclaimerRender = words + disclaimlink
     return(
         <div>

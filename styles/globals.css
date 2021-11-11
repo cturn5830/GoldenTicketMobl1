@@ -82,3 +82,6 @@ form #OPTin{
 .background2 input{
 margin-top: 75px;
 }
+.submitdiv{
+  background-image: url(../public/background.jpg);
+}

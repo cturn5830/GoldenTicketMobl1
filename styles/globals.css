@@ -90,8 +90,13 @@ margin-top: 75px;
   background-image: url(../public/background.jpg);
   background-repeat:no-repeat;
   background-size: 100% 100%;
-  padding-top:25px;
-  padding-bottom: 30px;
+  padding: 100px 150px;
   max-width: 650px;
   margin:auto;
+}
+.thanksbtn{
+  background-color: red;
+  color:whitesmoke;
+  font-size: 2rem;
+  padding:5px
 }

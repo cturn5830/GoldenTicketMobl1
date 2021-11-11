@@ -9,7 +9,7 @@ export default function Thankscontent() {
           notified by text and email by November 3.`}
         </p>
         <h3>Ride on. And on.</h3>
-        <a href="https://www.mobil.com/en/lubricants/for-personal-vehicles/motorcycles" rel="nofollow" target="_blank">
+        <a href="https://www.mobil.com/en/lubricants/for-personal-vehicles/motorcycles" rel="noreferrer" target="_blank">
         <button className="thanksbtn">
           Experience the difference
         </button>

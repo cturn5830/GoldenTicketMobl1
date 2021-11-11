@@ -16,7 +16,7 @@ export default function Form(){
                 <input type="text" id="ZipCode" name="ZipCode" placeholder = "Zip Code"/><p> </p>
                  <div className="formdisclaim"><input type="checkbox" id="OPTin" name="OPTin"/> {words} <a href="https://corporate.exxonmobil.com/Global-legal-pages/privacy-policy" rel="noreferrer">ExxonMobil privacy policy.</a>
              </div> <br/>
-             <div style="background-image:url(../public/background.jpg)">
+             <div style="background-image:url('../public/background.jpg')">
              <Link href="/thank"><input type="submit" id ="submit"value="Submit" onClick={()=>{
                             const scriptURL = 'https://script.google.com/macros/s/AKfycbwLpHPedIqGTXRlj-oL8XCIz_iPZICsbyhYGrOT6WeyNvQ4QZG1cTioaJBcoy5iggQ8/exec'
                            const form = document.forms['submit-to-google-sheet']

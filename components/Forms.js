@@ -24,12 +24,13 @@ export default function Form(){
                               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
                                 .then(response => console.log('Success!', response))
                                 .catch(error => console.error('Error!', error.message))     }}></input></Link>   
-            </div> 
-            </form>
             <p>
             Winners will be notified Nov. 3 via text and email, with only one
             entry per email address.
             </p>
+            </div> 
+            </form>
+            
         </div>
     )
 }

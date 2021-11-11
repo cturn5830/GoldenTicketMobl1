@@ -98,5 +98,7 @@ margin-top: 75px;
   background-color: red;
   color:whitesmoke;
   font-size: 2rem;
-  padding:5px
+  padding:5px;
+  border:none;
+  border-radius: 5px;
 }

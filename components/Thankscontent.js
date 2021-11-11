@@ -9,11 +9,11 @@ export default function Thankscontent() {
           notified by text and email by November 3.`}
         </p>
         <h3>Ride on. And on.</h3>
-        <button className="thanksbtn"
-          href="https://www.mobil.com/en/lubricants/for-personal-vehicles/motorcycles"
-        >
+        <a target="_blank" href="https://www.mobil.com/en/lubricants/for-personal-vehicles/motorcycles">
+        <button className="thanksbtn">
           Experience the difference
         </button>
+        </a>
       </div>
     );
   }
